@@ -1,0 +1,158 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+.container
+{
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width:1000px;
+    background-color: white;
+}
+
+.main-grid {
+    display: grid;
+    gap: 0rem;
+    grid-template-columns: repeat(2,1fr);
+    justify-items:center;
+    font-family:'Source Sans Pro';
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.grid-row-span-2 {
+    grid-row: span 2;
+}
+
+.bio {
+  margin-top: 100px;
+}
+
+.button-black{
+    background-color: black;
+    border: none;
+    color: white;
+
+    padding: 10px 60px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.button-black:hover{
+    background-color: gray;
+    color: black;
+}
+
+.profile-picture {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+}
+
+.logo-3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.text-align-right{
+    margin: 0px 100px;
+    text-align: right;
+}
+
+@media (max-width: 850px) {
+    body{
+        zoom:.5;
+    }
+}
