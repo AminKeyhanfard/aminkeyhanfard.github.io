@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <section id="home"></section>
+    <link rel="stylesheet" href="static/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amin Keyhan</title>
+</head>
+<header>
+    <nav class="navigation">
+        <a href="#about" class="button">ABOUT</a>
+        <a href="#projects" class="button">PROJECTS</a>
+        <a href="#resume" class="button">RESUME</a>
+        <a href="#contact" class="button">CONTACT</a>
+        <button class="button-black">DOWNLOAD CV</button>
+        <div class="logo">
+            <a href="#home">
+                <img src="static/images/logo.png"/>
+            </a>
+        </div>
+    </nav>
+</header>
+<body>
+<div class="main-grid">
+    <div class="grid-col-span-2">
+        <br><br><br><br>
+        <h1>AMIN<br>KEYHANFARD</h1>
+    </div>
+    <div>
+        <h2>
+            <b>PORTFOLIO</b>
+        </h2>
+        <h3>
+            Data Analyst, R & Python Developer
+        </h3>
+    </div>
+    
+</div>
+<section id="about">
+    <br><br><br><br><br><br><br><br>
+    <h1>ABOUT</h1>
+    <h3>
+        Detail-oriented data analytics student with strong Python and R development skills. Proficient in data analysis,
+        and data-driven decision-making. Experienced in working with spreadsheets, databases, and various Python
+        libraries (NumPy, Pandas, Scikit-learn, Matplotlib). Skilled in creating reports and dashboards using Power BI and
+        Tableau. Adaptable, with excellent interpersonal skills and a collaborative approach.
+    </h3>
+</section>
+<section id="projects">
+    <br><br><br><br><br><br><br><br>
+    <h1>PROJECTS</h1>
+    <h2>
+        Dashboards
+    </h2>
+        <div class="main-grid">
+            <a href="/">
+                <img src="static/images/project_1.png"/>
+            </a>
+            <a href="/">
+                <img src="static/images/project_2.png"/>
+            </a>
+        </div>
+</section>
+
+<section id="resume">
+    <br><br><br><br><br><br><br><br>
+    <h1>RESUME</h1>
+    <div class="download_icon">
+        <a href="static/MohammadAminKeyhanfard_Resume.pdf">
+            <h2>Download CV File</h2>
+            <img src="static/images/download.png" alt="Download Resume File"/>
+        </a>
+    </div>
+    
+
+</section>
+<section id="contact">
+    <br><br><br><br><br><br><br><br>
+    <h1>CONTACT</h1>
+    <h3>
+        Email : amin.keyhanfard@gmail.com
+    </h3>
+    <h3>
+        LinkedIn: https://www.linkedin.com/in/aminkeyhanfard/
+    </h3>
+</section>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+
+</body>
+<script>
+    document.addEventListener('scroll', () => {
+        const header = document.querySelector('header');
+
+        if (window.scrollY > 100){
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    })
+</script>
+</html>

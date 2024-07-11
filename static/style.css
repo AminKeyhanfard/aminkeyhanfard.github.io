@@ -1,0 +1,202 @@
+
+.main-grid {
+    display: grid;
+    gap: 0rem;
+    grid-template-columns: repeat(2,1fr);
+}
+
+header {
+    height: 6em;
+    width: 100%;
+    margin-top: -6em;
+    margin-bottom: 10em;
+    position: sticky;
+    top: 0;
+    align-content: center;
+    transition: background-color 0.2s ease-in-out;
+}
+
+header.scrolled {
+    background-color: black;
+    opacity: 0.95;
+}
+
+.navigation {
+    text-align:right;
+    font-size: 16px;
+    color: black;
+    margin-top:  1.5em;
+    margin-right: 2rem;
+    word-spacing: 1em;
+    
+}
+
+header nav a:visited {
+    transition: color 0.4s ease-in-out;
+}
+
+header nav a:link {
+    transition: color 0.4s ease-in-out;
+}
+
+header nav a:hover {
+    transition: color 0.4s ease-in-out;
+}
+
+header.scrolled nav a:visited {
+    color: white;
+}
+
+header.scrolled nav a:link {
+    color: white;
+}
+
+header.scrolled nav a:hover {
+    color: blue;
+}
+
+.logo{
+    margin-top: -2.5em;
+    margin-left: 4em;
+    width: 4em;
+    height: auto;
+}
+
+
+
+.button-black{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    margin-top: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 2rem;
+    transition: background-color 0.2s ease-in-out;
+    transition-duration: 0.4s ease-in-out;
+}
+
+header.scrolled nav button {
+    background-color: white;
+    color: black;
+}
+
+.button-black:hover{
+    background-color: gray;
+    color: black;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5%;
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: lighter;
+
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.grid-row-span-2 {
+    grid-row: span 2;
+}
+
+.download_icon{
+    width: auto;
+    height: 4em; 
+    text-align: center;
+
+}
+
+
+.button-gray{
+    background-color: lightgray;
+    border: none;
+    color: black;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.button-gray:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+.logo-3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.contact-us{
+    margin: -20px 80px;
+    text-align:left;
+}
+
+.text-align-right{
+    margin: 0px 100px;
+    text-align: right;
+}
+
+a:link { 
+text-decoration: none; 
+color: black
+} 
+a:visited { 
+text-decoration: none; 
+color: black
+} 
+a:hover { 
+text-decoration: none; 
+color: blue;
+} 
+a:active { 
+text-decoration: none; 
+color: darkgray
+}
+  
+
+
+@media (max-width: 800px) {
+    body{
+        zoom:.5;
+    }
+}
