@@ -55,14 +55,6 @@ header.scrolled nav a:hover {
     color: blue;
 }
 
-.logo{
-    margin-top: -2.5em;
-    margin-left: 4em;
-    width: 4em;
-    height: auto;
-}
-
-
 
 .button-black{
     background-color: black;
@@ -95,10 +87,6 @@ body {
     right: 0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 5%;
-    background-image: url('images/background.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 img {
@@ -155,16 +143,6 @@ h3 {
     color: white;
 }
 
-
-
-.logo-3{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    width: 100px;
-    height: 100px;
-}
 
 .contact-us{
     margin: -20px 80px;
